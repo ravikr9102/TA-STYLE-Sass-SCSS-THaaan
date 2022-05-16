@@ -1,0 +1,70 @@
+.product-section{
+    background-color: #F2F2F2;
+    h2{
+        font-size: 2rem;
+        font-weight: 800;
+        text-transform: capitalize;
+        padding-top: 1.5rem;
+    }
+    p{
+        font-size: 1.2rem;
+        color: #919395;
+        padding: 1.5rem 0;
+    }
+    .flex-30{
+        img{
+            width: 4rem;
+            padding: 2rem 0;
+        }
+        h4{
+            font-size: 1.5rem;
+            text-transform: capitalize;
+            font-weight: 500;
+        }
+        p{
+            color: #474e54;
+            padding-bottom: 2rem;
+        }
+    }
+    
+}
+.deal-section{
+    background-color: #DC4145;
+    strong {
+        color: #ffffff;
+        font-weight: 500;
+        font-size: 1.3rem;
+    }
+    span {
+        color: #ffffff;
+        font-size: 1.2rem;
+    }
+    .line {
+        font-size: 3rem;
+        color: #ffffff;
+        padding: 0rem 1rem;
+        margin-top: 1rem;
+    }
+    .btn {
+        background-color: #DC3C45;
+        border: 1px solid #fff;
+        color: #ffffff;
+    }
+}
+.award-section{
+    .text-align{
+        padding-top: 2rem;
+        h3{
+            font-size: 2.4rem;
+            text-transform: capitalize;
+            font-weight: 800;
+        }
+        p{
+            font-size: 1.3rem;
+            color: #919395;
+            padding: 2rem 0;
+            line-height: 1.5;
+        }
+    }
+    
+}

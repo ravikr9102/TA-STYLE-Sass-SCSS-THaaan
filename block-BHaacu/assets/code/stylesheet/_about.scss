@@ -1,0 +1,110 @@
+.aboutus-section{
+    height: 30vh;
+    background-color: #DC3C45;
+    .aboutus-article{
+        padding-top: 4rem;
+        h2{
+            font-size: 2.4rem;
+            text-transform: capitalize;
+            color: #fff;
+            font-weight: 900;
+        }
+        p{
+            font-size: 1.1rem;
+            color: #fff;
+            padding-top: 1.3rem;
+        }
+    }
+}
+.secondary-section{
+    .flex-45{
+        strong{
+            font-size: 1.4rem;
+            color: #DC3C45;
+            font-weight: 500;
+        }
+        h2{
+            font-size: 2.6rem;
+            font-weight: 800;
+            padding-top: 1rem;
+            line-height: 1.2;
+        }
+        p{
+            font-size: 1.1rem;
+            color: #919395;
+            padding-top: 1.5rem;
+            line-height: 1.5;
+        }
+    }
+}
+.section-three{
+    i{
+        font-size: 3rem;
+        padding-right: 1.5rem;
+    }
+    h3{
+        font-size: 1.6rem;
+        font-weight: 700;
+    }
+    p{
+        font-size: 1.1rem;
+        color: #919395;
+        line-height: 1.5;
+        padding-top: 0.8rem;
+    }
+    .item{
+        margin: 2.2rem 0;
+    }
+}
+.team-section{
+    background-color: #F2F2F2;
+    h2{
+        font-size: 2.4rem;
+        text-transform: capitalize;
+        font-weight: 800;
+    }
+    p{
+        font-size: 1.5rem;
+        padding: 1.6rem 0;
+    }
+    .flex-22{
+        img{
+            object-fit: cover;
+        }
+        .white{
+            background-color: #fff;
+            text-align: center;
+            margin-top: -0.2rem;
+            h4{
+                font-size: 1.5rem;
+                padding-top: 1rem;
+                text-transform: capitalize;
+                font-weight: 500;
+            }
+            p{
+                color: #DC3C45;
+                padding-bottom: 1.5rem;
+                font-size: 0.9rem;
+                text-transform: uppercase;
+            }
+        }
+    }
+}
+.section-five{
+    padding: 6rem 0;
+    h2{
+        font-size: 2rem;
+        font-weight: 900;
+        text-transform: capitalize;
+    }
+    p{
+        font-size: 1.2rem;
+        color: #919395;
+        padding: 2rem 0;
+        line-height: 1.5;
+    }
+    .btn{
+        background-color: #DC3C45;
+        color: #fff;
+    }
+}
