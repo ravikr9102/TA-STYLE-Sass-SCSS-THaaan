@@ -1,0 +1,80 @@
+.pricing-section {
+  background-color: #f2f2f2;
+  text-align: center;
+  p {
+    font-size: 1.2rem;
+    color: #919395;
+    padding: 2rem 0;
+    line-height: 1.5;
+    text-align: center;
+  }
+  .flex-30 {
+    margin-top: 2rem;
+  }
+  h3 {
+    font-size: 1.4rem;
+  }
+  h4 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    padding: 1.5rem 0;
+  }
+  h5 {
+    color: rgb(134, 133, 133);
+    font-size: 1.2rem;
+    padding: 1rem 0;
+  }
+  h6 {
+    font-size: 1.2rem;
+    padding: 1rem 0;
+  }
+  li {
+    padding: 1rem 0;
+    font-size: 1.1rem;
+    color: rgb(80, 79, 79);
+    margin-bottom: 0.5rem;
+  }
+  .flex-30 {
+    background-color: #ffffff;
+    border: 1px solid rgb(177, 176, 176);
+    border-radius: 4px;
+    padding: 2rem 0;
+  }
+  .active{
+      background-color: #dc3c45;
+      color: #ffffff;
+  }
+}
+
+// section 3
+
+.section-three-pricing {
+  .heading {
+    h2 {
+      font-size: 2.5rem;
+      font-weight: 800;
+      text-transform: capitalize;
+    }
+    p {
+      font-size: 1.2rem;
+      color: #919395;
+      padding: 2rem 0;
+      line-height: 1.5;
+      text-align: center;
+    }
+  }
+  .box-one{
+      border: 1px solid rgb(189, 185, 185);
+      padding: 1.5rem;
+      margin: 1rem 0;
+      h3{
+          font-size: 1.4rem;
+          font-weight: 500;
+      }
+      p{
+          font-size: 1.2rem;
+          padding: 1rem 0;
+          color: #919395;
+      }
+  }
+}

@@ -1,0 +1,162 @@
+.hero-section{
+    background: url(/assets/media/banner-1.jpg);
+    height: 80vh;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    h1{
+        font-size: 3.5rem;
+        font-weight: 900;
+        text-transform: uppercase;
+    }
+    p{
+        font-size: 1.5rem;
+        margin-bottom: 1.5rem;
+        margin-top: 1rem;
+    }
+}
+.hero-content{
+    padding-top: 11rem;
+    .btn{
+        padding: 0.50rem 1.5rem;
+        background-color: #DC3C45;
+        color: #ffffff;
+        border-radius: 2.5rem;
+        font-size: 1.3rem;
+    }
+}
+
+// Services Section
+.services-section{
+    padding: 2rem 0;
+    .services-header{
+        h2{
+            font-size: 2.2rem;
+            font-weight: 800;
+            text-transform: capitalize;
+            margin: 1.2rem 0;
+        }
+        p{
+            font-size: 1.3rem;
+            color: #919395;
+        }
+    } 
+    .service-article{
+        border: 1px solid gray;
+        text-align: center;
+        padding: 2.5rem 1rem;
+        margin-top: 2.5rem;
+        border-radius: 0.4rem;
+        img{
+            width: 5rem;
+        }
+        h3{
+            font-size: 1.5rem;
+            font-weight: 500;
+            margin: 1.2rem 0;
+            text-transform: capitalize;
+        }
+        p{
+            font-size: 1.1rem;
+            color: #919395;
+            margin-bottom: 1.8rem;
+            line-height: 1.5;
+        }
+    }
+}
+
+// solution-section
+.solution-section{
+    background-color: #F8F9FA;
+    height: 40vh;
+    .solution-article{
+        h2{
+            font-size: 2rem;
+            font-weight: 800;
+        }
+        p{
+            font-size: 1.1rem;
+            color: #919395;
+            margin: 2rem 0;
+            line-height: 1.5;
+        }
+    }
+}
+
+// Consulting section
+.consulting-article{
+    img{
+        width: 4rem;
+    }
+    h3{
+        font-size: 2.2rem;
+        font-weight: 800;
+        line-height: 1.2;
+    }
+    p{
+        font-size: 1.1rem;
+        color: #919395;
+        margin: 1.5rem 0;
+        line-height: 1.5;
+    }
+}
+
+// Quote-section
+.quote-section{
+    background-color: #DC3C45;
+    .quote-article{
+        h4{
+            font-size: 1.5rem;
+            color: #ffffff;
+        }
+        p{
+            font-size: 1.2rem;
+            color: #ffffff;
+            margin: 1.2rem 0;
+        }
+    }
+    .btn{
+        background-color: #DC3C45;
+        color: #ffffff;
+        border: 1px solid #ffffff;
+    }
+}
+
+// Leader Section
+.leader-section{
+    padding-top: 3rem;
+}
+.leader-article{
+    h2{
+        font-size: 2.2rem;
+        font-weight: 800;
+        line-height: 1.2;
+    }
+    p{
+        font-size: 1.1rem;
+        color: #919395;
+        margin: 1.6rem 0;
+        line-height: 1.4;
+    }
+}
+
+// client-section
+.client-section{
+    background-color: #F8F9FA;
+    h2{
+        font-size: 2.5rem;
+        text-align: center;
+        font-weight: 800;
+        margin: 2.5rem 0;
+    }
+    img{
+        width: 10rem;
+        margin-right: 1.5rem;
+        object-fit: cover;
+        filter: grayscale(100%);
+    }
+    img:hover{
+        filter: grayscale(0%);
+    }
+}
